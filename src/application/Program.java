@@ -18,7 +18,7 @@ public class Program {
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(d);
 		
-		cal.add(Calendar.HOUR,30);
+		cal.add(Calendar.HOUR,15);
 		d = cal.getTime();
 		
 		System.out.println(sdf.format(d));
